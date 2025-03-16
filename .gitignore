@@ -1,0 +1,26 @@
+# ignorar el archivo secrets.toml
+.streamlit/secrets.toml
+
+# ignorar archivos de entorno (si los tienes)
+.env
+.env.local
+
+# ignorar archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ignorar archivos de configuración de IDE
+.idea/
+.vscode/
+
+# ignorar archivos de dependencias
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ignorar archivos de sistema
+.DS_Store
+Thumbs.db

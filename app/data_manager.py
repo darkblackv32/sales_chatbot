@@ -13,7 +13,7 @@ stock dashboard y AI assistant.
 """
 
 # gemini API
-genai.configure(api_key='AIzaSyDq2vo0coD_XfJTgWq3V3lePXPncvk1P38')
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 modelo = genai.GenerativeModel('gemini-1.5-pro-latest')
 
 class GestorDatos:
