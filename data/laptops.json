@@ -1,0 +1,217 @@
+{
+    "categoria": "laptops",
+    "ultima_actualizacion": "2024-06-25",
+    "productos": [
+      {
+        "id": "LT-101",
+        "marca": "TechMaster",
+        "modelo": "CreatorBook Pro",
+        "especificaciones": {
+          "procesador": {
+            "modelo": "Intel Core i9-13900H",
+            "nucleos": 14,
+            "hilos": 20
+          },
+          "graficos": "NVIDIA RTX 4080 12GB",
+          "pantalla": {
+            "tamanio": "16''",
+            "resolucion": "2560x1600",
+            "color_gamut": "100% DCI-P3"
+          },
+          "almacenamiento": "2TB NVMe Gen4",
+          "conectividad": ["Thunderbolt 4", "WiFi 6E"]
+        },
+        "precio": 2899.99,
+        "certificaciones": ["ISV Certified", "MIL-STD-810H"],
+        "stock": {
+          "tienda": 5,
+          "almacen": 10
+        }
+      },
+      {
+        "id": "LT-102",
+        "marca": "GamingTech",
+        "modelo": "Aurora X5",
+        "especificaciones": {
+          "procesador": "AMD Ryzen 9 7940HS",
+          "graficos": "RTX 4070 8GB",
+          "refrigeracion": "Sistema vapor chamber",
+          "teclado": "Mecánico RGB per-key"
+        },
+        "precio": 1999.99,
+        "promociones": ["Mouse gaming gratis"],
+        "stock": {
+          "tienda": 3,
+          "almacen": 8
+        }
+      },
+      {
+        "id": "LT-103",
+        "marca": "UltraBook",
+        "modelo": "SlimX 14",
+        "especificaciones": {
+          "procesador": "Intel Core i7-1360P",
+          "graficos": "Intel Iris Xe",
+          "pantalla": {
+            "tamanio": "14''",
+            "resolucion": "1920x1200",
+            "brillo": "500 nits"
+          },
+          "almacenamiento": "1TB NVMe Gen4",
+          "conectividad": ["WiFi 6", "USB-C"]
+        },
+        "precio": 1299.99,
+        "stock": {
+          "tienda": 7,
+          "almacen": 15
+        }
+      },
+      {
+        "id": "LT-104",
+        "marca": "WorkPro",
+        "modelo": "Elite Business 15",
+        "especificaciones": {
+          "procesador": "AMD Ryzen 7 7735U",
+          "graficos": "AMD Radeon 680M",
+          "pantalla": {
+            "tamanio": "15.6''",
+            "resolucion": "1920x1080",
+            "antireflejo": true
+          },
+          "almacenamiento": "512GB NVMe",
+          "seguridad": ["Lector de huellas", "TPM 2.0"]
+        },
+        "precio": 999.99,
+        "stock": {
+          "tienda": 2,
+          "almacen": 5
+        }
+      },
+      {
+        "id": "LT-105",
+        "marca": "GigaGamer",
+        "modelo": "Extreme G17",
+        "especificaciones": {
+          "procesador": "Intel Core i9-14900HX",
+          "graficos": "RTX 4090 16GB",
+          "pantalla": {
+            "tamanio": "17.3''",
+            "resolucion": "3840x2160",
+            "refresh_rate": "144Hz"
+          },
+          "almacenamiento": "2TB NVMe Gen4",
+          "teclado": "Mecánico RGB"
+        },
+        "precio": 3999.99,
+        "stock": {
+          "tienda": 1,
+          "almacen": 3
+        }
+      },
+      {
+        "id": "LT-106",
+        "marca": "SpeedTech",
+        "modelo": "RapidBook 13",
+        "especificaciones": {
+          "procesador": "Apple M2",
+          "graficos": "Apple GPU 10-core",
+          "pantalla": {
+            "tamanio": "13.3''",
+            "resolucion": "2560x1600"
+          },
+          "almacenamiento": "512GB SSD",
+          "conectividad": ["WiFi 6E", "USB4"]
+        },
+        "precio": 1599.99,
+        "stock": {
+          "tienda": 4,
+          "almacen": 12
+        }
+      },
+      {
+        "id": "LT-107",
+        "marca": "EliteBook",
+        "modelo": "Pro X2",
+        "especificaciones": {
+          "procesador": "Intel Core i5-1335U",
+          "graficos": "Intel Iris Xe",
+          "pantalla": {
+            "tamanio": "12.3''",
+            "resolucion": "1920x1280",
+            "tactil": true
+          },
+          "almacenamiento": "256GB SSD",
+          "seguridad": ["Lector de huellas", "Windows Hello"]
+        },
+        "precio": 899.99,
+        "stock": {
+          "tienda": 6,
+          "almacen": 20
+        }
+      },
+      {
+        "id": "LT-108",
+        "marca": "FutureTech",
+        "modelo": "NeoPad 2",
+        "especificaciones": {
+          "procesador": "Qualcomm Snapdragon 8cx Gen 3",
+          "graficos": "Adreno 690",
+          "pantalla": {
+            "tamanio": "13.5''",
+            "resolucion": "2256x1504",
+            "tactil": true
+          },
+          "almacenamiento": "512GB NVMe",
+          "conectividad": ["5G", "WiFi 6E"]
+        },
+        "precio": 1299.99,
+        "stock": {
+          "tienda": 0,
+          "almacen": 7
+        }
+      },
+      {
+        "id": "LT-109",
+        "marca": "HyperNova",
+        "modelo": "XtremeBook 15",
+        "especificaciones": {
+          "procesador": "Intel Core i7-13700H",
+          "graficos": "RTX 4060 8GB",
+          "pantalla": {
+            "tamanio": "15.6''",
+            "resolucion": "2560x1440",
+            "refresh_rate": "165Hz"
+          },
+          "almacenamiento": "1TB NVMe",
+          "teclado": "RGB personalizable"
+        },
+        "precio": 1799.99,
+        "stock": {
+          "tienda": 3,
+          "almacen": 9
+        }
+      },
+      {
+        "id": "LT-110",
+        "marca": "ZenPro",
+        "modelo": "Flex 360",
+        "especificaciones": {
+          "procesador": "AMD Ryzen 5 7640U",
+          "graficos": "AMD Radeon 760M",
+          "pantalla": {
+            "tamanio": "14''",
+            "resolucion": "1920x1080",
+            "tactil": true,
+            "modo": "2-en-1 convertible"
+          },
+          "almacenamiento": "512GB SSD",
+          "conectividad": ["USB-C", "WiFi 6"]
+        },
+        "precio": 1099.99,
+        "stock": {
+          "tienda": 8,
+          "almacen": 18
+        }
+      }
+    ]
+  }

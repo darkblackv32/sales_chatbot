@@ -1,0 +1,176 @@
+{
+    "categoria": "monitores_gamer",
+    "ultima_actualizacion": "2024-06-25",
+    "productos": [
+      {
+        "id": "MG-001",
+        "marca": "HyperVision",
+        "modelo": "UltraSpeed 27",
+        "especificaciones": {
+          "tamaño": "27''",
+          "resolucion": "2560x1440",
+          "tasa_refresco": "240Hz",
+          "tiempo_respuesta": "1ms",
+          "panel": "IPS"
+        },
+        "precio": 499.99,
+        "stock": {
+          "tienda": 4,
+          "almacen": 6
+        }
+      },
+      {
+        "id": "MG-002",
+        "marca": "GamerElite",
+        "modelo": "Xtreme 32",
+        "especificaciones": {
+          "tamaño": "32''",
+          "resolucion": "3840x2160",
+          "tasa_refresco": "144Hz",
+          "tiempo_respuesta": "1ms",
+          "panel": "VA"
+        },
+        "precio": 699.99,
+        "stock": {
+          "tienda": 3,
+          "almacen": 5
+        }
+      },
+      {
+        "id": "MG-003",
+        "marca": "VisionTech",
+        "modelo": "ProGamer 24",
+        "especificaciones": {
+          "tamaño": "24''",
+          "resolucion": "1920x1080",
+          "tasa_refresco": "165Hz",
+          "tiempo_respuesta": "0.5ms",
+          "panel": "TN"
+        },
+        "precio": 249.99,
+        "stock": {
+          "tienda": 8,
+          "almacen": 7
+        }
+      },
+      {
+        "id": "MG-004",
+        "marca": "XtremeView",
+        "modelo": "CurvaMaster 34",
+        "especificaciones": {
+          "tamaño": "34''",
+          "resolucion": "3440x1440",
+          "tasa_refresco": "175Hz",
+          "tiempo_respuesta": "1ms",
+          "panel": "IPS Curvo"
+        },
+        "precio": 899.99,
+        "stock": {
+          "tienda": 2,
+          "almacen": 3
+        }
+      },
+      {
+        "id": "MG-005",
+        "marca": "NeonPixel",
+        "modelo": "FastPlay 27",
+        "especificaciones": {
+          "tamaño": "27''",
+          "resolucion": "2560x1440",
+          "tasa_refresco": "165Hz",
+          "tiempo_respuesta": "1ms",
+          "panel": "IPS"
+        },
+        "precio": 429.99,
+        "stock": {
+          "tienda": 5,
+          "almacen": 7
+        }
+      },
+      {
+        "id": "MG-006",
+        "marca": "UltraGear",
+        "modelo": "Elite32 4K",
+        "especificaciones": {
+          "tamaño": "32''",
+          "resolucion": "3840x2160",
+          "tasa_refresco": "144Hz",
+          "tiempo_respuesta": "1ms",
+          "panel": "IPS"
+        },
+        "precio": 799.99,
+        "stock": {
+          "tienda": 3,
+          "almacen": 4
+        }
+      },
+      {
+        "id": "MG-007",
+        "marca": "DarkVision",
+        "modelo": "Stealth 24",
+        "especificaciones": {
+          "tamaño": "24''",
+          "resolucion": "1920x1080",
+          "tasa_refresco": "240Hz",
+          "tiempo_respuesta": "0.5ms",
+          "panel": "TN"
+        },
+        "precio": 279.99,
+        "stock": {
+          "tienda": 7,
+          "almacen": 7
+        }
+      },
+      {
+        "id": "MG-008",
+        "marca": "OpticView",
+        "modelo": "ProUltra 29",
+        "especificaciones": {
+          "tamaño": "29''",
+          "resolucion": "2560x1080",
+          "tasa_refresco": "200Hz",
+          "tiempo_respuesta": "1ms",
+          "panel": "IPS"
+        },
+        "precio": 499.99,
+        "stock": {
+          "tienda": 4,
+          "almacen": 5
+        }
+      },
+      {
+        "id": "MG-009",
+        "marca": "GigaScreen",
+        "modelo": "HyperWide 49",
+        "especificaciones": {
+          "tamaño": "49''",
+          "resolucion": "5120x1440",
+          "tasa_refresco": "120Hz",
+          "tiempo_respuesta": "2ms",
+          "panel": "VA Curvo"
+        },
+        "precio": 1299.99,
+        "stock": {
+          "tienda": 1,
+          "almacen": 2
+        }
+      },
+      {
+        "id": "MG-010",
+        "marca": "NeonTech",
+        "modelo": "Vision360 27",
+        "especificaciones": {
+          "tamaño": "27''",
+          "resolucion": "2560x1440",
+          "tasa_refresco": "360Hz",
+          "tiempo_respuesta": "0.5ms",
+          "panel": "IPS"
+        },
+        "precio": 999.99,
+        "stock": {
+          "tienda": 3,
+          "almacen": 3
+        }
+      }
+    ]
+  }

@@ -1,0 +1,182 @@
+{
+    "categoria": "smartphones",
+    "productos": [
+      {
+        "id": "SPH-001",
+        "marca": "QuantumMobile",
+        "modelo": "Nexus Pro 5G",
+        "especificaciones": {
+          "hardware": {
+            "procesador": {
+              "modelo": "Snapdragon 8 Gen 3",
+              "nucleos": 8,
+              "velocidad_max": "3.3 GHz"
+            },
+            "memoria": {
+              "ram": "12GB LPDDR5X",
+              "almacenamiento": "256GB UFS 4.0",
+              "expansion": false
+            }
+          },
+          "pantalla": {
+            "tipo": "Dynamic AMOLED 2X",
+            "tamanio": "6.8''",
+            "resolucion": "1440x3088",
+            "refresh_rate": "120Hz",
+            "proteccion": "Gorilla Glass Victus 3"
+          },
+          "camara": {
+            "principal": {
+              "mp": 200,
+              "apertura": "f/1.7",
+              "estabilizacion": "OIS + EIS"
+            },
+            "ultra_angular": "12MP f/2.2",
+            "teleobjetivo": "10MP 3x óptico"
+          },
+          "bateria": {
+            "capacidad": "5000mAh",
+            "carga_rapida": "100W",
+            "inalambrica": true
+          }
+        },
+        "precio": {
+          "base": 1099.99,
+          "moneda": "USD",
+          "impuestos": {
+            "iva": 21.0,
+            "aranceles": 5.0
+          }
+        },
+        "disponibilidad": {
+          "stock": {
+            "tienda": 8,
+            "almacen": 15
+          },
+          "entrega": {
+            "standard": "3 días",
+            "express": "24h"
+          }
+        },
+        "garantia": {
+          "base": "2 años",
+          "extendida": {
+            "opciones": [
+              {"duracion": "+1 año", "precio": 89.99},
+              {"duracion": "+2 años", "precio": 149.99}
+            ]
+          }
+        },
+        "stock": {
+          "tienda": 8,
+          "almacen": 15
+        }
+      },
+      {
+        "id": "SPH-002",
+        "marca": "PhotoMaster",
+        "modelo": "CamPro X",
+        "especificaciones": {
+          "hardware": {
+            "procesador": "Dimensity 9200+",
+            "memoria": {
+              "ram": "16GB",
+              "almacenamiento": "512GB"
+            }
+          },
+          "camara": {
+            "principal": "1'' Sony IMX989",
+            "zoom": "10x óptico",
+            "video": "8K@30fps"
+          },
+          "bateria": "5500mAh con carga 120W"
+        },
+        "precio": 899.99,
+        "colores": ["Obsidian Black", "Titanium Silver"],
+        "stock": {
+          "tienda": 5,
+          "almacen": 12
+        }
+      },
+      {
+        "id": "SPH-003",
+        "marca": "NeoTech",
+        "modelo": "Ultra 7",
+        "especificaciones": {
+          "hardware": {
+            "procesador": "Exynos 2400",
+            "memoria": {
+              "ram": "8GB",
+              "almacenamiento": "128GB"
+            }
+          },
+          "bateria": "4800mAh carga 65W"
+        },
+        "precio": 699.99,
+        "stock": {
+          "tienda": 10,
+          "almacen": 25
+        }
+      },
+      {
+        "id": "SPH-004",
+        "marca": "HyperPhone",
+        "modelo": "Max Power 5G",
+        "especificaciones": {
+          "hardware": {
+            "procesador": "Snapdragon 8 Gen 2",
+            "memoria": {
+              "ram": "12GB",
+              "almacenamiento": "256GB"
+            }
+          },
+          "bateria": "5000mAh carga 80W"
+        },
+        "precio": 799.99,
+        "stock": {
+          "tienda": 3,
+          "almacen": 8
+        }
+      },
+      {
+        "id": "SPH-005",
+        "marca": "NextGen",
+        "modelo": "Prime X",
+        "especificaciones": {
+          "hardware": {
+            "procesador": "Apple A17 Bionic",
+            "memoria": {
+              "ram": "8GB",
+              "almacenamiento": "512GB"
+            }
+          },
+          "bateria": "4500mAh carga 30W"
+        },
+        "precio": 1199.99,
+        "stock": {
+          "tienda": 2,
+          "almacen": 6
+        }
+      },
+      {
+        "id": "SPH-006",
+        "marca": "SmartTech",
+        "modelo": "Infinity Z",
+        "especificaciones": {
+          "hardware": {
+            "procesador": "MediaTek Helio G99",
+            "memoria": {
+              "ram": "6GB",
+              "almacenamiento": "128GB"
+            }
+          },
+          "bateria": "5000mAh carga 33W"
+        },
+        "precio": 349.99,
+        "stock": {
+          "tienda": 15,
+          "almacen": 30
+        }
+      }
+    ]
+  }

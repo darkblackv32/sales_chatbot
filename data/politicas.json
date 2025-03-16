@@ -1,0 +1,67 @@
+{
+    "politicas": {
+      "devoluciones": {
+        "descripcion": "Política de devoluciones y reembolsos",
+        "condiciones": [
+          "Productos nuevos y sellados",
+          "Máximo 30 días después de la compra",
+          "Presentar ticket de compra",
+          "El producto debe estar en perfecto estado"
+        ],
+        "proceso": [
+          "Contactar al servicio al cliente",
+          "Solicitar autorización de devolución",
+          "Empaquetar el producto con todos sus accesorios",
+          "Enviar o llevar el producto a la tienda"
+        ]
+      },
+      "envios": {
+        "descripcion": "Opciones de envío disponibles",
+        "opciones": [
+          {
+            "nombre": "Estándar",
+            "tiempo_entrega": "3-5 días hábiles",
+            "costo": 9.99,
+            "moneda": "USD"
+          },
+          {
+            "nombre": "Express",
+            "tiempo_entrega": "1-2 días hábiles",
+            "costo": 19.99,
+            "moneda": "USD"
+          },
+          {
+            "nombre": "Recogida en Tienda",
+            "tiempo_entrega": "Disponible inmediatamente",
+            "costo": 0.00,
+            "moneda": "USD"
+          }
+        ]
+      },
+      "garantias": {
+        "descripcion": "Política de garantías de productos",
+        "cobertura_base": [
+          "Defectos de fabricación",
+          "Problemas de hardware"
+        ],
+        "exclusiones": [
+          "Daños por mal uso",
+          "Modificaciones no autorizadas",
+          "Desgaste normal del producto"
+        ],
+        "proceso_reclamacion": [
+          "Presentar el producto en tienda con ticket de compra",
+          "Esperar diagnóstico técnico",
+          "Reparación o sustitución según disponibilidad"
+        ]
+      },
+      "privacy_policy": {
+        "descripcion": "Política de privacidad y protección de datos",
+        "puntos_clave": [
+          "No compartimos tus datos con terceros",
+          "Usamos cifrado SSL para transacciones",
+          "Puedes solicitar la eliminación de tus datos en cualquier momento"
+        ]
+      }
+    }
+  }

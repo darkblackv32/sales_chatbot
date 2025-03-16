@@ -1,0 +1,171 @@
+{
+  "categoria": "audifonos",
+  "productos": [
+    {
+      "id": "AUD-401",
+      "tipo": "auriculares",
+      "marca": "SonicPro",
+      "modelo": "X900 Wireless",
+      "especificaciones": {
+        "tipo": "Over-ear",
+        "inalambrico": true,
+        "cancelacion_ruido": "ANC híbrido",
+        "autonomia": "60h",
+        "codecs": ["LDAC", "aptX HD"]
+      },
+      "precio": 349.99,
+      "stock": {
+        "tienda": 5,
+        "almacen": 10
+      }
+    },
+    {
+      "id": "AUD-402",
+      "tipo": "altavoz",
+      "marca": "BassMaster",
+      "modelo": "Pro",
+      "caracteristicas": {
+        "potencia": "200W RMS",
+        "resistencia": "IPX7",
+        "bateria": "24h reproducción"
+      },
+      "precio": 199.99,
+      "stock": {
+        "tienda": 8,
+        "almacen": 15
+      }
+    },
+    {
+      "id": "AUD-403",
+      "tipo": "auriculares",
+      "marca": "HyperSound",
+      "modelo": "Elite Buds",
+      "especificaciones": {
+        "tipo": "In-ear",
+        "inalambrico": true,
+        "cancelacion_ruido": "ANC",
+        "autonomia": "30h",
+        "codecs": ["AAC", "SBC"]
+      },
+      "precio": 149.99,
+      "stock": {
+        "tienda": 12,
+        "almacen": 20
+      }
+    },
+    {
+      "id": "AUD-404",
+      "tipo": "barra_sonido",
+      "marca": "CineAudio",
+      "modelo": "TheaterX 5.1",
+      "caracteristicas": {
+        "canales": "5.1",
+        "potencia": "500W",
+        "conectividad": ["HDMI ARC", "Bluetooth 5.0"]
+      },
+      "precio": 499.99,
+      "stock": {
+        "tienda": 3,
+        "almacen": 7
+      }
+    },
+    {
+      "id": "AUD-405",
+      "tipo": "auriculares",
+      "marca": "AudioCore",
+      "modelo": "Pro Studio",
+      "especificaciones": {
+        "tipo": "Over-ear",
+        "inalambrico": false,
+        "cancelacion_ruido": "Pasiva",
+        "respuesta_frecuencia": "10Hz - 40kHz"
+      },
+      "precio": 299.99,
+      "stock": {
+        "tienda": 6,
+        "almacen": 12
+      }
+    },
+    {
+      "id": "AUD-406",
+      "tipo": "altavoz_inteligente",
+      "marca": "SmartSound",
+      "modelo": "HomeHub",
+      "caracteristicas": {
+        "asistente": "Alexa & Google Assistant",
+        "potencia": "50W",
+        "conectividad": ["WiFi", "Bluetooth 5.2"]
+      },
+      "precio": 129.99,
+      "stock": {
+        "tienda": 10,
+        "almacen": 25
+      }
+    },
+    {
+      "id": "AUD-407",
+      "tipo": "subwoofer",
+      "marca": "ThunderBass",
+      "modelo": "DeepBoom 1000",
+      "caracteristicas": {
+        "potencia": "1000W",
+        "respuesta_frecuencia": "20Hz - 250Hz",
+        "conexion": ["RCA", "XLR"]
+      },
+      "precio": 599.99,
+      "stock": {
+        "tienda": 2,
+        "almacen": 5
+      }
+    },
+    {
+      "id": "AUD-408",
+      "tipo": "micrófono",
+      "marca": "VocalPro",
+      "modelo": "Studio XLR",
+      "especificaciones": {
+        "tipo": "Condensador",
+        "patron_polar": "Cardioide",
+        "frecuencia": "20Hz - 20kHz"
+      },
+      "precio": 179.99,
+      "stock": {
+        "tienda": 7,
+        "almacen": 14
+      }
+    },
+    {
+      "id": "AUD-409",
+      "tipo": "auriculares",
+      "marca": "ZenAudio",
+      "modelo": "SilentMax",
+      "especificaciones": {
+        "tipo": "On-ear",
+        "inalambrico": true,
+        "cancelacion_ruido": "ANC avanzada",
+        "autonomia": "80h"
+      },
+      "precio": 379.99,
+      "stock": {
+        "tienda": 4,
+        "almacen": 8
+      }
+    },
+    {
+      "id": "AUD-410",
+      "tipo": "amplificador",
+      "marca": "PowerAmp",
+      "modelo": "X2500",
+      "especificaciones": {
+        "potencia": "2500W",
+        "canales": 2,
+        "conexion": ["XLR", "RCA", "USB"]
+      },
+      "precio": 799.99,
+      "stock": {
+        "tienda": 1,
+        "almacen": 3
+      }
+    }
+  ]
+}

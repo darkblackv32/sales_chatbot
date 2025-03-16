@@ -1,0 +1,76 @@
+{
+    "servicios": {
+      "garantias_extendidas": [
+        {
+          "nombre": "Garantía Plus 1 Año",
+          "descripcion": "Amplía la garantía del fabricante por 1 año adicional",
+          "cobertura": [
+            "Defectos de fabricación",
+            "Daños por uso normal",
+            "Sustitución de batería"
+          ],
+          "precio": 99.99,
+          "moneda": "USD",
+          "productos_aplicables": ["laptops", "smartphones"]
+        },
+        {
+          "nombre": "Garantía Total 2 Años",
+          "descripcion": "Cobertura completa por 2 años, incluye daños accidentales",
+          "cobertura": [
+            "Defectos de fabricación",
+            "Daños accidentales",
+            "Sustitución de pantalla"
+          ],
+          "precio": 199.99,
+          "moneda": "USD",
+          "productos_aplicables": ["laptops", "smartphones", "monitores"]
+        }
+      ],
+      "soporte_tecnico": [
+        {
+          "nombre": "Soporte Básico",
+          "descripcion": "Asistencia remota por teléfono y correo electrónico",
+          "cobertura": [
+            "Instalación de software",
+            "Configuración de dispositivos",
+            "Solución de problemas básicos"
+          ],
+          "precio_mes": 9.99,
+          "moneda": "USD"
+        },
+        {
+          "nombre": "Soporte Premium",
+          "descripcion": "Asistencia en sitio y prioridad en reparaciones",
+          "cobertura": [
+            "Visitas técnicas en domicilio",
+            "Reparaciones prioritarias",
+            "Asesoría personalizada"
+          ],
+          "precio_mes": 19.99,
+          "moneda": "USD"
+        }
+      ],
+      "financiamiento": [
+        {
+          "nombre": "Plan 12 Meses Sin Intereses",
+          "descripcion": "Financia tu compra en 12 pagos mensuales sin intereses",
+          "requisitos": [
+            "Identificación oficial",
+            "Comprobante de ingresos",
+            "Historial crediticio"
+          ],
+          "productos_aplicables": ["laptops", "smartphones", "monitores"]
+        },
+        {
+          "nombre": "Plan 24 Meses con Tasa Fija",
+          "descripcion": "Financiamiento a 24 meses con tasa de interés fija del 10% anual",
+          "requisitos": [
+            "Identificación oficial",
+            "Comprobante de domicilio",
+            "Aval con buen historial crediticio"
+          ],
+          "productos_aplicables": ["laptops", "smartphones"]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,171 @@
+{
+    "categoria": "componentes-pc",
+    "ultima_actualizacion": "2024-06-25",
+    "productos": [
+      {
+        "id": "GPU-301",
+        "tipo": "tarjeta_grafica",
+        "marca": "NVIDIA",
+        "modelo": "RTX 4090 Founders Edition",
+        "especificaciones": {
+          "vram": "24GB GDDR6X",
+          "velocidad": "2.52 GHz boost",
+          "consumo": "450W",
+          "conectores": ["3x PCIe 8-pin"]
+        },
+        "precio": 1999.99,
+        "stock": {
+          "tienda": 2,
+          "almacen": 3
+        }
+      },
+      {
+        "id": "CPU-201",
+        "tipo": "procesador",
+        "marca": "AMD",
+        "modelo": "Ryzen 9 7950X",
+        "especificaciones": {
+          "nucleos": 16,
+          "hilos": 32,
+          "frecuencia": "4.5GHz base / 5.7GHz boost"
+        },
+        "precio": 699.99,
+        "stock": {
+          "tienda": 5,
+          "almacen": 10
+        }
+      },
+      {
+        "id": "RAM-401",
+        "tipo": "memoria_ram",
+        "marca": "Corsair",
+        "modelo": "Vengeance RGB Pro",
+        "especificaciones": {
+          "capacidad": "32GB (2x16GB)",
+          "tipo": "DDR5",
+          "frecuencia": "6000MHz",
+          "latencia": "CL30"
+        },
+        "precio": 199.99,
+        "stock": {
+          "tienda": 8,
+          "almacen": 12
+        }
+      },
+      {
+        "id": "SSD-501",
+        "tipo": "almacenamiento",
+        "marca": "Samsung",
+        "modelo": "980 Pro",
+        "especificaciones": {
+          "capacidad": "2TB",
+          "tipo": "NVMe Gen4",
+          "velocidad_lectura": "7000 MB/s",
+          "velocidad_escritura": "5100 MB/s"
+        },
+        "precio": 229.99,
+        "stock": {
+          "tienda": 10,
+          "almacen": 20
+        }
+      },
+      {
+        "id": "MB-601",
+        "tipo": "placa_base",
+        "marca": "ASUS",
+        "modelo": "ROG Strix X670E-E",
+        "especificaciones": {
+          "socket": "AM5",
+          "chipset": "X670E",
+          "memoria_maxima": "128GB DDR5",
+          "puertos": ["PCIe 5.0", "USB-C 20Gbps"]
+        },
+        "precio": 449.99,
+        "stock": {
+          "tienda": 3,
+          "almacen": 7
+        }
+      },
+      {
+        "id": "PSU-701",
+        "tipo": "fuente_alimentacion",
+        "marca": "EVGA",
+        "modelo": "SuperNOVA 1000W",
+        "especificaciones": {
+          "potencia": "1000W",
+          "certificacion": "80+ Platinum",
+          "modular": true
+        },
+        "precio": 189.99,
+        "stock": {
+          "tienda": 6,
+          "almacen": 9
+        }
+      },
+      {
+        "id": "CPU-202",
+        "tipo": "procesador",
+        "marca": "Intel",
+        "modelo": "Core i7-13700K",
+        "especificaciones": {
+          "nucleos": 16,
+          "hilos": 24,
+          "frecuencia": "3.4GHz base / 5.4GHz boost"
+        },
+        "precio": 419.99,
+        "stock": {
+          "tienda": 4,
+          "almacen": 8
+        }
+      },
+      {
+        "id": "GPU-302",
+        "tipo": "tarjeta_grafica",
+        "marca": "AMD",
+        "modelo": "Radeon RX 7900 XTX",
+        "especificaciones": {
+          "vram": "24GB GDDR6",
+          "velocidad": "2.5 GHz boost",
+          "consumo": "355W",
+          "conectores": ["2x 8-pin PCIe"]
+        },
+        "precio": 999.99,
+        "stock": {
+          "tienda": 3,
+          "almacen": 5
+        }
+      },
+      {
+        "id": "CASE-801",
+        "tipo": "torre",
+        "marca": "Lian Li",
+        "modelo": "PC-O11 Dynamic",
+        "especificaciones": {
+          "factor_forma": "ATX",
+          "ventilacion": "Soporta hasta 9 ventiladores",
+          "panel_lateral": "Vidrio templado"
+        },
+        "precio": 149.99,
+        "stock": {
+          "tienda": 7,
+          "almacen": 15
+        }
+      },
+      {
+        "id": "COOL-901",
+        "tipo": "refrigeracion",
+        "marca": "NZXT",
+        "modelo": "Kraken X73",
+        "especificaciones": {
+          "tipo": "Líquida",
+          "radiador": "360mm",
+          "iluminacion": "RGB"
+        },
+        "precio": 179.99,
+        "stock": {
+          "tienda": 5,
+          "almacen": 10
+        }
+      }
+    ]
+  }
