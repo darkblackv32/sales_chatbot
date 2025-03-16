@@ -1,9 +1,8 @@
-# Importaciones comunes para facilitar el acceso desde otros módulos
 from .data_manager import GestorDatos, DashboardStock, AsistenteTech
 from .styles import cargar_estilos, crear_header, crear_sidebar
-from .utils import verificar_admin, inicializar_session
+from .utils import verificar_admin, keep_session
 
-# Opcional: Configuraciones iniciales
+# initial config
 def inicializar_app():
     """
     Función para inicializar configuraciones comunes de la aplicación.

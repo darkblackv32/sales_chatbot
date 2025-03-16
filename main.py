@@ -1,9 +1,9 @@
 import streamlit as st
 from app.data_manager import DashboardStock
 from app.styles import cargar_estilos, crear_header, crear_sidebar
-from app.utils import verificar_admin, inicializar_session
+from app.utils import verificar_admin, keep_session
 
-# Configuración de la página
+# page configuration
 st.set_page_config(
     page_title="Makers Tech Assistant",
     page_icon="🤖",
@@ -11,14 +11,14 @@ st.set_page_config(
 )
 
 def main():
-    # Cargar estilos y header
+    # styles and headers
     st.markdown(cargar_estilos(), unsafe_allow_html=True)
     st.markdown(crear_header(), unsafe_allow_html=True)
     
-    # Inicializar sesión
-    inicializar_session()
+    # keep the active chat (does not imply loggin) 
+    keep_session()
     
-    # Sidebar
+    # sidebar
     crear_sidebar()
     with st.sidebar:
         admin_pass = st.text_input("🔑 Clave de Administrador", type="password")
@@ -32,10 +32,10 @@ def main():
             dash.mostrar_distribucion_stock()
             dash.mostrar_alertas_stock()
 
-    # Área de chat (se mantiene intacta)
+    # chat area
     chat_container = st.container()
     with chat_container:
-        # Mostrar historial de chat
+        # show past messages
         for mensaje in st.session_state.historial:
             if mensaje['rol'] == 'usuario':
                 with st.chat_message("user"):
@@ -44,33 +44,33 @@ def main():
                 with st.chat_message("assistant"):
                     st.markdown(f"{mensaje['contenido']}")
 
-    # Input de chat (funciona independientemente del panel de admin)
+    # chat input (works even you are logged as admin)
     consulta = st.chat_input("Escribe tu consulta aquí...")
     if consulta:
-        # Mostrar mensaje del usuario
+        # show query
         with chat_container:
             with st.chat_message("user"):
                 st.markdown(f"**Tú:** {consulta}")
         
-        # Guardar en el historial
+        # keep query
         st.session_state.historial.append({
             'rol': 'usuario',
             'contenido': consulta
         })
 
-        # Generar y mostrar respuesta
+        # generate and show answer
         with st.spinner("Analizando..."):
             respuesta = st.session_state.asistente.generar_respuesta(
                 consulta, 
                 st.session_state.historial[-3:]
             )
 
-        # Mostrar respuesta del asistente
+        # show answer
         with chat_container:
             with st.chat_message("assistant"):
                 st.markdown(respuesta)
         
-        # Guardar respuesta en el historial
+        # keep answer
         st.session_state.historial.append({
             'rol': 'asistente',
             'contenido': respuesta

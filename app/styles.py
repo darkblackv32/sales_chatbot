@@ -41,7 +41,7 @@ def crear_sidebar():
         st.markdown('<div class="sidebar-title">🔍 Accesos Rápidos</div>', unsafe_allow_html=True)
         st.markdown("---")
         
-        # Bloques de contenido del sidebar
+        # sidebar blocks
         bloques = [
             {
                 "color": "#264653",
