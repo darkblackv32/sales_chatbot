@@ -108,7 +108,7 @@ class DashboardStock:
         # three-column layout
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.metric("Productos con Stock", f"{len(df_valido)}", ">5 unidades")
+            st.metric("Productos con Stock", f"{len(df_valido)}", "(>5 unidades)")
         with col2:
             bajo_stock = df_valido[df_valido['Stock Tienda'] < 5].shape[0]
             st.metric("Productos Bajo Stock", bajo_stock, "(<5 unidades)")
